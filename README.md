@@ -26,3 +26,8 @@ gamelib.init(main)
 - TP1 - Fifteen
 - TP2 - Shape Shifter Chess
 - TP3 - Flood
+
+### Correr cualquier entrega
+```
+$ python3 main.py
+```
