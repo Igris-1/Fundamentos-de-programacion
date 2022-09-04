@@ -22,7 +22,7 @@ gamelib.init(main)
 ```
 
 ## Entregas 1er cuatrimestre 2022
-- EJ2 - Five in line
+- [EJ2](https://github.com/Igris-1/Algoritmos-y-programacion-I/tree/main/EJ2) - Five in line
 - TP1 - Fifteen
 - TP2 - Shape Shifter Chess
 - TP3 - Flood
