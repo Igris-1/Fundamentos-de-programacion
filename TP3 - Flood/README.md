@@ -1,5 +1,2 @@
-# Flood
-
-- Consiste en un tablero de colores, donde el "flood" será el color correspondiente a la esquina de arriba a la izquierda. 
-- El jugador podrá seleccionar un cambio de color al "flood", tomando una mayor área. 
-- El objetivo es convertir todo el tablero del mismo color.
+# TP3 - Flood
+ - Enunciado y explicaciones sobre el tp3 en la [página de la cátedra](https://algoritmos1rw.ddns.net/tps/2022-c1/tp3)
