@@ -87,10 +87,10 @@ def mostrar_imagenes(tablero):
             pieza = tablero[i][j]
             if pieza:
                 if pieza[-1] == 'r':
-                    ruta = 'TP2_22/images/' + pieza[:-1] + 'rojo.gif'
+                    ruta = 'Shape-Shifter-Chess\images/' + pieza[:-1] + 'rojo.gif'
                     gamelib.draw_image(ruta, j * 44, i * 44)
                 else:
-                    ruta = 'TP2_22/images/' + pieza + '_blanco.gif'
+                    ruta = 'Shape-Shifter-Chess\images/' + pieza + '_blanco.gif'
                     gamelib.draw_image(ruta, j * 44, i * 44)
 
 
@@ -146,7 +146,7 @@ def guardar_nivel(nivel, tablero):
             if tablero[i][j] != '':
                 piezas[(i, j)] = piezas.get((i, j), '') + tablero[i][j]
 
-    with open('TP2_22/ultimo_nivel.csv', 'w') as archivo:
+    with open('Shape-Shifter-Chess/ultimo_nivel.csv', 'w') as archivo:
         archivo.write(f'{nivel}\n')
         for posicion in piezas:
             archivo.write(f'{piezas[posicion]},{posicion[0]};{posicion[1]}\n')
@@ -159,7 +159,7 @@ def cargar_nivel(TAMANIO):
     tablero = [['' for _ in range(TAMANIO)] for _ in range(TAMANIO)]
     inicial = []
 
-    with open('TP2_22/ultimo_nivel.csv') as archivo:
+    with open('Shape-Shifter-Chess/ultimo_nivel.csv') as archivo:
         nivel = archivo.readline().rstrip()
         for fila in archivo:
             pieza, posicion = fila.rstrip().split(',')
