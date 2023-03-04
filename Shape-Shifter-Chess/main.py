@@ -14,7 +14,7 @@ def main():
     tablero = logica.inicializar_tablero(TAMANIO)
     gamelib.resize(TAMANIO * 44, TAMANIO * 44 + 26)
 
-    movimientos, piezas = logica.movimientos('Shape-Shifter-Chess\movimientos.csv', tablero)
+    movimientos, piezas = logica.movimientos('Shape-Shifter-Chess/movimientos.csv', tablero)
     nivel = 1
     inicial = logica.agregar_piezas(tablero, nivel, movimientos, piezas)
     _tablero, _inicial = [tablero[i][:]
