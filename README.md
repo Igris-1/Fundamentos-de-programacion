@@ -23,9 +23,9 @@ gamelib.init(main)
 
 ## Entregas 2022C1
 - [EJ2](https://github.com/Igris-1/Algoritmos-y-programacion-I/tree/main/EJ2) - Five in line
-- [TP1](https://github.com/Igris-1/Algoritmos-y-programacion-I/tree/main/TP1%20-%20Fifteen) - Fifteen
-- [TP2](https://github.com/Igris-1/Algoritmos-y-programacion-I/tree/main/TP2%20-%20Shape%20Shifter%20Chess) - Shape Shifter Chess
-- [TP3](https://github.com/Igris-1/Algoritmos-y-programacion-I/tree/main/TP3%20-%20Flood) - Flood
+- [TP1](https://github.com/Igris-1/Algoritmos-y-programacion-I/tree/main/Fifteen) - Fifteen
+- [TP2](https://github.com/Igris-1/Algoritmos-y-programacion-I/tree/main/Shape-Shifter-Chess) - Shape Shifter Chess
+- [TP3](https://github.com/Igris-1/Algoritmos-y-programacion-I/tree/main/Flood) - Flood
 
 ### Correr cualquier entrega
 ```
